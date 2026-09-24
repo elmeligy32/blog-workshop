@@ -1,0 +1,43 @@
+.auth-page {
+  align-items: center;
+  padding-top: 96px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 360px;
+}
+
+.auth-card .lead {
+  margin-bottom: 8px;
+}
+
+.auth-field {
+  margin-top: 24px;
+}
+
+.auth-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-text-meta);
+  font-size: var(--fs-sm);
+}
+
+.auth-submit {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.auth-footer {
+  margin-top: 24px;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--fs-sm);
+}
+
+.auth-footer a {
+  color: var(--color-brand);
+}
+.auth-footer a:hover {
+  text-decoration: underline;
+}

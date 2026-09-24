@@ -1,0 +1,76 @@
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid var(--color-border-soft);
+  background: var(--color-bg);
+}
+
+.navbar-inner {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-family: var(--font-serif);
+  font-size: var(--fs-logo);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-text-strong);
+}
+
+.navbar-center {
+  color: var(--color-text);
+  font-size: var(--fs-base);
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-link {
+  color: var(--color-text);
+  font-size: var(--fs-base);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.navbar-new-btn,
+.navbar-signup-btn {
+  padding: 6.5px 18px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-border-soft);
+  color: var(--color-text-meta);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.navbar-username {
+  color: var(--color-text-meta);
+  font-size: var(--fs-sm);
+}
+
+.navbar-logout {
+  color: var(--color-text-muted);
+}
+.navbar-logout:hover {
+  color: var(--color-text);
+}

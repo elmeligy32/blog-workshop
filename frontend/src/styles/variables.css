@@ -36,4 +36,9 @@
   --container-max: 1140px;
   --container-pad: 24px;
   --header-height: 64px;
+
+  --color-published-bg: #fee6e6;
+  --color-published-text: #c40000;
+  --color-draft-bg: #f0f0f0;
+  --color-draft-text: #737373;
 }

@@ -1,0 +1,18 @@
+.post-detail {
+  max-width: 720px;
+}
+
+.post-detail-content {
+  color: var(--color-text);
+  font-size: var(--fs-post);
+  line-height: 1.75;
+}
+
+.post-detail-content p {
+  margin: 0 0 20px;
+}
+
+.status-badge-draft {
+  background: var(--color-draft-bg);
+  color: var(--color-draft-text);
+}

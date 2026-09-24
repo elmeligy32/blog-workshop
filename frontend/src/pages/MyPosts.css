@@ -1,0 +1,85 @@
+.my-posts-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.my-posts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+}
+
+.my-posts-table th {
+  text-align: left;
+  padding: 0 0 12px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-faint);
+  font-weight: 400;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.my-posts-table td {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--color-divider);
+  vertical-align: middle;
+}
+
+.my-posts-table th:not(:first-child),
+.my-posts-table td:not(:first-child) {
+  padding-left: 24px;
+}
+
+.my-posts-muted {
+  color: var(--color-text-muted);
+}
+
+.status-badge {
+  display: inline-flex;
+  padding: 3px 11px;
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-xs);
+  line-height: 16px;
+}
+.status-badge-published {
+  background: var(--color-published-bg);
+  color: var(--color-published-text);
+}
+.status-badge-draft {
+  background: var(--color-draft-bg);
+  color: var(--color-draft-text);
+}
+
+.my-posts-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.btn-delete {
+  color: var(--color-brand);
+  border-color: var(--color-border);
+}
+.btn-delete:hover {
+  background: var(--color-published-bg);
+}
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-card {
+  background: #fff;
+  border-radius: var(--radius-input);
+  padding: 32px;
+  width: 100%;
+  max-width: 360px;
+}

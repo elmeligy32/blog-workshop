@@ -147,7 +147,6 @@ Neither `.env` file is committed; `.env.example` files with placeholder values a
 - No image upload for posts.
 - No automated test suite yet.
 - Not deployed; runs locally only.
-- The frontend's signup form has a single password field rather than a separate confirmation field.
 
 ## Tech notes for reviewers
 
